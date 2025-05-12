@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kxmI1PTrjsM=",
+  "dgSpecHash": "K2s0BWfYWBg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\name\\source\\repos\\ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj",
+  "projectFilePath": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\name\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\name\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

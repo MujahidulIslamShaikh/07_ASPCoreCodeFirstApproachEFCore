@@ -10,15 +10,19 @@ namespace ASPCoreCodeFirstApproachEFCore.Models
 
 
         [Column("StudentName",TypeName ="varchar(100)")]
+        [Required]
         public string Name { get; set; }
 
 
         [Column("StudentGender", TypeName = "varchar(20)")]
+        [Required]
         public string Gender { get; set; }
 
+        [Required]
+        public int? Age { get; set; }
 
-        public int Age { get; set; }
-        public int Standard { get; set; }
+        [Required]
+        public int? Standard { get; set; }
 
     }
 }

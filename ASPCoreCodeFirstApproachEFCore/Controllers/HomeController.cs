@@ -1,8 +1,9 @@
 using System.Diagnostics;
 using ASPCoreCodeFirstApproachEFCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace ASPCoreCodeFirstApproachEFCore.Controllers
+namespace ASPCoreCodeFirstApproachEFCore.Controllersr
 {
     public class HomeController : Controller
     {
@@ -26,6 +27,21 @@ namespace ASPCoreCodeFirstApproachEFCore.Controllers
         {
             var stdData = studentDb.Students.ToList();
             return View(stdData);
+        }
+        public IActionResult Create()
+        { 
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(StudentModel std)
+        {
+            if (ModelState.IsValid)  // programentor me validation ke concept me hai ye
+            {
+                studentDb.Students.Add(std);  // ye add apne student ke dbset me jo hamare pas jo datacontext ke obj ke ander hai
+                studentDb.SaveChanges();  // success complete karne ke liye
+                return RedirectToAction("Index", "Home");
+            }
+            return View();
         }
 
         public IActionResult Privacy()
