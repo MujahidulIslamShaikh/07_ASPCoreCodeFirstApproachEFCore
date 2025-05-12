@@ -44,6 +44,20 @@ namespace ASPCoreCodeFirstApproachEFCore.Controllersr
             return View(std);
             //return View();
         }
+        public async Task<IActionResult> Details(int? id) // int ki Default value 0 hoti hai isliye
+                         // Default value null set karne keliye int ke aage ? ye mark lagana padta
+        {
+            if (id == null || studentDb.Students == null) // Validation lagaya gaya hai.
+            {
+                return NotFound();
+            }  
+            var stdData = await studentDb.Students.FirstOrDefaultAsync(x => x.Id == id);
+            if(stdData == null)  // Validation lagaya gaya hai
+            {
+                return NotFound();
+            }
+            return View(stdData);
+        }
 
         public IActionResult Privacy()
         {

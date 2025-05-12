@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|solutionrelative:aspcorecodefirstapproachefcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|c:\\users\\name\\source\\repos\\07_aspcorecodefirstapproachefcore\\aspcorecodefirstapproachefcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|solutionrelative:aspcorecodefirstapproachefcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|c:\\users\\name\\source\\repos\\07_aspcorecodefirstapproachefcore\\aspcorecodefirstapproachefcore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|solutionrelative:aspcorecodefirstapproachefcore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|c:\\users\\name\\source\\repos\\07_aspcorecodefirstapproachefcore\\aspcorecodefirstapproachefcore\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|solutionrelative:aspcorecodefirstapproachefcore\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|c:\\users\\name\\source\\repos\\07_aspcorecodefirstapproachefcore\\aspcorecodefirstapproachefcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|solutionrelative:aspcorecodefirstapproachefcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69ABEBE3-66E6-4FC2-B4C6-0B8EF04640CA}|ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore.csproj|c:\\users\\name\\source\\repos\\07_aspcorecodefirstapproachefcore\\aspcorecodefirstapproachefcore\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T21:19:57.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\appsettings.json",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\appsettings.json",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentDbContext.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Models\\StudentDbContext.cs",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Models\\StudentDbContext.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "ASPCoreCodeFirstApproachEFCore\\Models\\StudentDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:34:10.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:34:10.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Program.cs",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Program.cs",
@@ -106,14 +122,14 @@
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ASPCoreCodeFirstApproachEFCore\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T20:05:57.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Index.cshtml",
@@ -121,12 +137,11 @@
               "RelativeToolTip": "ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAswCQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T20:14:32.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T20:14:32.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Create.cshtml",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Views\\Home\\Create.cshtml",
@@ -138,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Properties\\launchSettings.json",
@@ -150,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "20250512200129_ForStudentModel.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\07_ASPCoreCodeFirstApproachEFCore\\ASPCoreCodeFirstApproachEFCore\\Migrations\\20250512200129_ForStudentModel.cs",
               "RelativeDocumentMoniker": "ASPCoreCodeFirstApproachEFCore\\Migrations\\20250512200129_ForStudentModel.cs",
