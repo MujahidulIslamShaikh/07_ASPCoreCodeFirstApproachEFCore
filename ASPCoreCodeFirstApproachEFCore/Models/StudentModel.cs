@@ -8,7 +8,6 @@ namespace ASPCoreCodeFirstApproachEFCore.Models
         [Key]
         public int Id { get; set; }
 
-
         [Column("StudentName",TypeName ="varchar(100)")]
         [Required]
         public string Name { get; set; }
@@ -25,4 +24,4 @@ namespace ASPCoreCodeFirstApproachEFCore.Models
         public int? Standard { get; set; }
 
     }
-}
+}   

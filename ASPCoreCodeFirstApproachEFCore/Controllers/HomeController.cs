@@ -23,9 +23,9 @@ namespace ASPCoreCodeFirstApproachEFCore.Controllersr
             this.studentDb = studentDb;  // Initialized studentDb object
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var stdData = studentDb.Students.ToList();
+            var stdData = await studentDb.Students.ToListAsync();
             return View(stdData);
         }
         public IActionResult Create()
@@ -33,15 +33,16 @@ namespace ASPCoreCodeFirstApproachEFCore.Controllersr
             return View();
         }
         [HttpPost]
-        public IActionResult Create(StudentModel std)
+        public async Task<IActionResult> Create(StudentModel std)
         {
             if (ModelState.IsValid)  // programentor me validation ke concept me hai ye
             {
-                studentDb.Students.Add(std);  // ye add apne student ke dbset me jo hamare pas jo datacontext ke obj ke ander hai
-                studentDb.SaveChanges();  // success complete karne ke liye
+                await studentDb.Students.AddAsync(std);  // ye add apne student ke dbset me jo hamare pas jo datacontext ke obj ke ander hai
+                await studentDb.SaveChangesAsync();  // success complete karne ke liye
                 return RedirectToAction("Index", "Home");
             }
-            return View();
+            return View(std);
+            //return View();
         }
 
         public IActionResult Privacy()
